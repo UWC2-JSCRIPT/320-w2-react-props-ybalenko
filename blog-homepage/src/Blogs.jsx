@@ -29,7 +29,7 @@ function renderBlog(blogItem) {
         return <div className='blog' key={idx}>
             <img className='blog-img' src={blog.image} alt='title' />
             {blog.hasAudioAvailable && <span>Has audio</span>}
-            {blog.memberPreview && <span className='grid-item'>Memeber preview</span>}
+            {blog.memberPreview && <span className='grid-item'>Member preview</span>}
             <h4>{blog.title}</h4>
             <p>{blog.description}</p>
             <img className='author-img' src={blog.author.image} alt='author' />
