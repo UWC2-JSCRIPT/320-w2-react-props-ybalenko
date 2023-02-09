@@ -1,0 +1,46 @@
+.App {
+    text-align: left;
+}
+
+.blog {
+    width: 33%;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.blog-img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+
+.author-img {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.grid-container {
+    display: inline-flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-item {
+    display: grid;
+    justify-content: left;
+    column-gap: 10px;
+    row-gap: 10px;
+}
